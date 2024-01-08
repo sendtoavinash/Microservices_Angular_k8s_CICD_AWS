@@ -1,5 +1,5 @@
 server:
-  port: 9092
+  port: 9093
 
 eureka:
   client:
@@ -11,10 +11,10 @@ spring:
   #    active: dev
 
   application:
-    name: USER-SERVICE
+    name: FOOD-CATALOGUE-SERVICE
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/userdb
+    url: jdbc:postgresql://localhost:5432/foodcataloguedb
     username: postgres
     password: postgres
     driverClassName: org.postgresql.Driver
