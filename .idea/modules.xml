@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../FcAgendaMom/FcAgendaMom.iml" filepath="$PROJECT_DIR$/../FcAgendaMom/FcAgendaMom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Learning/Learning.iml" filepath="$PROJECT_DIR$/../Learning/Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservices_Angular_k8s_CICD_AWS.iml" filepath="$PROJECT_DIR$/.idea/Microservices_Angular_k8s_CICD_AWS.iml" />
+    </modules>
+  </component>
+</project>

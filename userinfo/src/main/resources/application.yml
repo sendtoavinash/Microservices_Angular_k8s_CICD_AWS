@@ -1,23 +1,12 @@
 server:
   port: 9092
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-
 spring:
-  #  profiles:
-  #    active: dev
+  profiles:
+      active: dev
 
   application:
     name: USER-SERVICE
-
-  datasource:
-    url: jdbc:postgresql://localhost:5432/userdb
-    username: postgres
-    password: postgres
-    driverClassName: org.postgresql.Driver
 
   jpa:
     hibernate:

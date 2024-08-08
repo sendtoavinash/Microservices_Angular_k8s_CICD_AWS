@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Learning" />
+        <module name="FcAgendaMom" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FcAgendaMom" target="17" />
+      <module name="fcagendamom" target="17" />
+      <module name="fcagendamom (1)" target="1.5" />
+      <module name="fcagendamom (2)" target="17" />
+      <module name="jwtDemo" target="17" />
+      <module name="Learning" target="17" />
+      <module name="printrcWS" target="1.8" />
+      <module name="spring-security-latest" target="17" />
+      <module name="templateapp" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FcAgendaMom" options="-parameters" />
+      <module name="fcagendamom" options="-parameters" />
+      <module name="fcagendamom (2)" options="-parameters" />
+      <module name="jwtDemo" options="-parameters" />
+      <module name="printrcWS" options="-parameters" />
+      <module name="spring-security-latest" options="-parameters" />
+      <module name="templateapp" options="-parameters" />
+    </option>
+  </component>
+</project>
